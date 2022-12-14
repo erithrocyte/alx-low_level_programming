@@ -6,19 +6,19 @@
 
 int main(void)
 {
-		int c = 0;
+	int c = 0;
 
-		while (c <= 99)
+	while (c <= 99)
+	{
+		putchar(c / 10 + '0');
+		putchar(c % 10 + '0');
+		if (c != 99)
 		{
-			putchar(c / 10 + '0');
-			putchar(c % 10 + '0');
-			if (c != 99)
-			{
-				putchar(',');
-				putchar(' ');
-																		}
-			c++;
+			putchar(',');
+			putchar(' ');
 		}
-		putchar('\n');
-		return (0);
+		c++;
+	}
+putchar('\n');
+return (0);
 }
