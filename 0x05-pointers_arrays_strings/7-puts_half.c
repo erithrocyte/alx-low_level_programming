@@ -1,9 +1,8 @@
 #include "main.h"
 
 /**
-* _strlen - returns the length of a string
-* @s: string
-* Return: length
+* puts_half - returns half of a string
+* @str: input
 */
 void puts_half(char *str)
 {
