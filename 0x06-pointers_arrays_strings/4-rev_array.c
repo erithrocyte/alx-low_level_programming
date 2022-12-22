@@ -18,3 +18,5 @@ void reverse_array(int *a, int n)
 		*(a + beg) = *(a + end);
 		*(a + end) = tmp;
 		beg++, end--;
+	}
+}
